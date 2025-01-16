@@ -6,43 +6,43 @@ const Application = () => {
   const sectors = [
     {
       name: "Hospital",
-      imgSrc: "https://www.breachcandyhospital.org/sites/default/files/17-compressed.jpg",
+      imgSrc: "https://concrete-floors.com.au/wp-content/uploads/2022/07/Hospital-Flooting.png",
       description: "Ensuring sterile environments for healthcare services.",
     },
     {
       name: "Textile",
-      imgSrc: "https://www.saisamarthpolytech.com/images/tex.jpg",
+      imgSrc: "https://e7.pngegg.com/pngimages/981/248/png-clipart-wood-flooring-hardwood-wood-building-textile.png",
       description:
         "Maintaining clean and durable flooring for textile manufacturing.",
     },
     {
       name: "Automobile",
-      imgSrc: "path-to-image-automobile.jpg",
+      imgSrc: "https://via.placeholder.com/400x300?text=Automobile", // Update with correct image URL
       description: "Supporting industrial flooring for automobile production.",
     },
     {
       name: "Pharmaceutical",
-      imgSrc: "path-to-image-pharmaceutical.jpg",
+      imgSrc: "https://via.placeholder.com/400x300?text=Pharmaceutical", // Update with correct image URL
       description: "Sterile and clean environments for pharmaceutical labs.",
     },
     {
       name: "Medical",
-      imgSrc: "path-to-image-medical.jpg",
+      imgSrc: "https://via.placeholder.com/400x300?text=Medical", // Update with correct image URL
       description: "Clean and safe surfaces for medical facilities.",
     },
     {
       name: "Warehouse",
-      imgSrc: "path-to-image-warehouse.jpg",
+      imgSrc: "https://via.placeholder.com/400x300?text=Warehouse", // Update with correct image URL
       description: "Durable flooring for large warehouse spaces.",
     },
     {
       name: "Parking",
-      imgSrc: "path-to-image-parking.jpg",
+      imgSrc: "https://via.placeholder.com/400x300?text=Parking", // Update with correct image URL
       description: "Strong and resistant flooring for parking areas.",
     },
     {
       name: "Construction",
-      imgSrc: "path-to-image-construction.jpg",
+      imgSrc: "https://via.placeholder.com/400x300?text=Construction", // Update with correct image URL
       description: "Safe and resilient surfaces for construction zones.",
     },
   ];
@@ -67,8 +67,8 @@ const Application = () => {
   return (
     <div className="application py-5">
       <div className="container">
-        <h2 className="title text-dark">Industries We Serve</h2>
-        <p className="subtitle">
+        <h2 className="title text-dark text-center">Industries We Serve</h2>
+        <p className="subtitle text-center">
           We proudly support a diverse range of industries with high-quality,
           durable flooring solutions tailored to meet the unique demands of each
           sector.

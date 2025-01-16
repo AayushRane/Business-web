@@ -225,3 +225,19 @@
     font-size: 0.9rem;
   }
 }
+/* Ensure that the images inside the cards are responsive */
+.sector-image {
+  width: 100%;
+  height: auto;
+  object-fit: cover; /* Ensure images cover the entire card space */
+}
+
+/* Add a smooth fade-in effect for the sector cards */
+.sector-card {
+  opacity: 0;
+  transition: opacity 0.5s ease-in-out;
+}
+
+.sector-card.visible {
+  opacity: 1;
+}

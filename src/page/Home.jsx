@@ -9,7 +9,7 @@ const Home = () => {
     <div className="home-container">
       {/* Image Slider Section */}
       <section className="slider-section">
-        <div id="carouselExample" className="carousel slide" data-bs-ride="carousel">
+        <div id="carouselExample" className="carousel slide" data-bs-ride="carousel" data-bs-interval="5000">
           <div className="carousel-inner">
             {[
               "https://via.placeholder.com/1920x800?text=Welcome+to+Saisamarth",
@@ -21,13 +21,13 @@ const Home = () => {
               <div
                 className={`carousel-item ${index === 0 ? "active" : ""}`}
                 key={index}
-                style={{
-                  backgroundImage: `url(${image})`,
-                  backgroundSize: "cover",
-                  backgroundPosition: "center",
-                  height: "80vh",
-                }}
               >
+                <img
+                  src={image}
+                  className="d-block w-100"
+                  alt={`Slide ${index + 1}`}
+                  style={{ height: "80vh", objectFit: "cover" }}
+                />
                 <div className="carousel-caption d-none d-md-block">
                   <h2 className="display-4 text-white font-weight-bold">Welcome to Saisamarth Polytech Pvt. Ltd.</h2>
                   <p className="lead text-white">
@@ -62,7 +62,7 @@ const Home = () => {
       </section>
 
       {/* About Us Section */}
-      <section className="about-us py-5 fade-in" id="about-us">
+      <section className="about-us py-5" id="about-us">
         <div className="container">
           <h2 className="text-center text-dark mb-4">About Us</h2>
           <div className="row align-items-center">
@@ -80,7 +80,7 @@ const Home = () => {
                 innovation and reliability.
               </p>
               <Link to="/aboutus">
-                <button className="btn btn-primary mt-3 transition">Learn More</button>
+                <button className="btn btn-primary mt-3">Learn More</button>
               </Link>
             </div>
           </div>
@@ -88,7 +88,7 @@ const Home = () => {
       </section>
 
       {/* Leadership Section */}
-      <section className="leadership text-center py-5 fade-in">
+      <section className="leadership text-center py-5">
         <div className="container">
           <h2 className="text-dark mb-4">Our Leadership</h2>
           <div className="row justify-content-center">
@@ -108,14 +108,16 @@ const Home = () => {
       </section>
 
       {/* Call to Action Section */}
-      <section className="cta-section text-center py-5">
-        <h2 className="font-weight-bold text-dark">Let's Build Together</h2>
-        <p className="lead mb-4 text-dark">
-          We specialize in cleanroom finishing solutions. Let's discuss your next project and take it to the next level.
-        </p>
-        <a href="mailto:info@saisamarthpolytech.com" className="btn btn-primary btn-lg">
-          Get in Touch
-        </a>
+      <section className="cta-section text-center py-5 bg-light">
+        <div className="container">
+          <h2 className="font-weight-bold text-dark">Let's Build Together</h2>
+          <p className="lead mb-4 text-dark">
+            We specialize in cleanroom finishing solutions. Let's discuss your next project and take it to the next level.
+          </p>
+          <a href="mailto:info@saisamarthpolytech.com" className="btn btn-primary btn-lg">
+            Get in Touch
+          </a>
+        </div>
       </section>
     </div>
   );

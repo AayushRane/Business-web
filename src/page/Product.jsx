@@ -7,7 +7,7 @@ const Products = () => {
     {
       title: "Floor Protection System",
       description: "Durable solutions for floor protection.",
-      img: "https://www.saisamarthpolytech.com/images/hospital.jpg",
+      img: "https://w7.pngwing.com/pngs/907/249/png-transparent-brown-parquet-flooring-wood-flooring-wall-tile-laminate-flooring-wood-floor-angle-household-rectangle-thumbnail.png",
       path: "/protection",
     },
     {
@@ -19,37 +19,37 @@ const Products = () => {
     {
       title: "Hygienic Internal Wall Protection System",
       description: "Ensures hygiene and durability for walls.",
-      img: "https://via.placeholder.com/300",
+      img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSDtmUaA1V3l0u4nHnMQ4I5uu7Zn1a1L4LkB5tbQSPhncF5TX9PyHFjA_GpQi1ukUVeR4Q&usqp=CAU",
       path: "/hygine",
     },
     {
       title: "Speciality Chemical Protection Systems",
       description: "Chemical-resistant solutions for industries.",
-      img: "https://via.placeholder.com/300",
+      img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSDtmUaA1V3l0u4nHnMQ4I5uu7Zn1a1L4LkB5tbQSPhncF5TX9PyHFjA_GpQi1ukUVeR4Q&usqp=CAU",
       path: "/wall",
     },
     {
       title: "Epoxy Covings",
       description: "Seamless epoxy covings for various applications.",
-      img: "https://via.placeholder.com/300",
+      img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSDtmUaA1V3l0u4nHnMQ4I5uu7Zn1a1L4LkB5tbQSPhncF5TX9PyHFjA_GpQi1ukUVeR4Q&usqp=CAU",
       path: "/Epoxy",
     },
     {
       title: "Food Grade Coating",
       description: "Safe and hygienic coatings for food industries.",
-      img: "https://via.placeholder.com/300",
+      img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSDtmUaA1V3l0u4nHnMQ4I5uu7Zn1a1L4LkB5tbQSPhncF5TX9PyHFjA_GpQi1ukUVeR4Q&usqp=CAU",
       path: "/Food",
     },
     {
       title: "Flexible Sealants",
       description: "High-quality sealants for flexible solutions.",
-      img: "https://via.placeholder.com/300",
+      img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSDtmUaA1V3l0u4nHnMQ4I5uu7Zn1a1L4LkB5tbQSPhncF5TX9PyHFjA_GpQi1ukUVeR4Q&usqp=CAU",
       path: "/Flexible",
     },
     {
       title: "Durable Exterior Wall System",
       description: "Weather-resistant and durable wall systems.",
-      img: "https://via.placeholder.com/300",
+      img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSDtmUaA1V3l0u4nHnMQ4I5uu7Zn1a1L4LkB5tbQSPhncF5TX9PyHFjA_GpQi1ukUVeR4Q&usqp=CAU",
       path: "/Durable",
     },
   ];

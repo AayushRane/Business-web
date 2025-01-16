@@ -12,8 +12,8 @@ const AboutUs = () => {
          
             <div className="container text-center text-white">
               <br></br>
-              <h1 className="display-4 font-weight-bold">About Us</h1>
-              <p className="lead mb-4">Providing Ultimate Finishing Solutions for Clean Rooms & Beyond</p>
+              <h1 className="display-4 font-weight-bold text-black">About Us</h1>
+              <p className="lead mb-4 text-black">Providing Ultimate Finishing Solutions for Clean Rooms & Beyond</p>
               <a href="#our-team" className="btn btn-primary btn-lg mt-4 hero-btn">Meet Our Team</a>
             </div>
          
